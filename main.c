@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "demo_for.h"
 
 int main()
 {
@@ -10,16 +11,7 @@ int main()
 
     b = a + 5 + a;
 
-    a = -b;
-    a = +b + 7;
-
-    a = b ? 1 : 0;
-
-    a = !1;
-    b = ++a;
-    a = (char)c;
-    a = 1;
-    b = 1 << 20;
+    demo_for();
 
     int result = a + 10;
     printf("Result: %d len=%lu\n", result, sizeof(double));

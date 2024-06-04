@@ -6,6 +6,7 @@ set(CMAKE_BUILD_TYPE Debug)
 # sources
 set(SOURCES
     main.c
+    demo_for.c
 )
 
 add_executable(${PROJECT_NAME} ${SOURCES})
